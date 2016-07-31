@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white_listitem"
+    android:id="@+id/List_item_layout"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:button="@drawable/custom_checkbox_design"
+            android:id="@+id/check_listitem"
+           />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="6dp"
+            android:id="@+id/todotype_colorbar"
+            android:layout_marginLeft="7dp"
+            android:layout_height="match_parent"
+            android:background="@color/bootstrap_info">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:id="@+id/txt_todoDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/check_listitem"
+                android:text="name"
+                android:textColor="@color/bootstrap_info_shadowed"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/txt_todoDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="name"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

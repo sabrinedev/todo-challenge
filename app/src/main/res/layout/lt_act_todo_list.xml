@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_app">
+
+
+     <com.baoyz.swipemenulistview.SwipeMenuListView
+         android:id="@+id/Todo_listView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginLeft="5dp"
+         android:divider="@android:color/transparent"
+         android:dividerHeight="9dp"/>
+
+     <ImageButton
+         android:id="@+id/bt_add"
+         android:layout_width="@dimen/square_button_size"
+         android:layout_height="@dimen/square_button_size"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="@dimen/activity_horizontal_margin"
+         android:layout_marginEnd="@dimen/activity_vertical_margin"
+         android:layout_marginRight="@dimen/activity_vertical_margin"
+         android:background="@drawable/button_am_full_default"
+         android:onClick="askAddTodo"
+         android:src="@drawable/ic_action_add_l_white"/>
+
+     <ImageButton
+         android:id="@+id/bt_surprise"
+         android:layout_width="@dimen/square_button_size"
+         android:layout_height="@dimen/square_button_size"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginBottom="@dimen/activity_vertical_margin"
+         android:layout_marginLeft="@dimen/activity_vertical_margin"
+         android:layout_marginStart="@dimen/activity_horizontal_margin"
+         android:background="@drawable/button_am_full_success"
+         android:onClick="askSurprise"
+         android:src="@drawable/ic_action_gift_l_white"/>
+
+ </RelativeLayout>

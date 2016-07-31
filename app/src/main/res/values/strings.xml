@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">TodoList</string>
+
+    <string name="todo_default_name">"Enter name"</string>
+    <string name="todo_default_date">"No date"</string>
+
+    <string name="dialog_title_surprise">"Bonus question"</string>
+    <string name="dialog_message_surprise">"If you want, you can add a little something to this todoList application."
+        "It can be a new feature, an animation, just some wonderful code, or how to use a library you really like. Be original :)"</string>
+    <string name="confirm">"Confirm"</string>
+    <string name="AddToDo_title">" Add a TODO "</string>
+    <string name="AddToDo_type"><font size="13">"  Set TODO Type "</font></string>
+    <string name="AddToDo_DescHint"><font size="13"> "  Enter TODO description..."</font></string>
+    <string name="AddToDo_btn"><font size="14">"  Add TODO  "</font></string>
+    <string name="AddToDo_back_btn"><font size="14">"  Back to list  "</font></string>
+    <string name="message_addTodo">"Your Todo has been added successfully "</string>
+    <string name="EditToDo_title">" Edit TODO "</string>
+    <string name="EditToDo_btn"><font size="14">"  Edit TODO  "</font></string>
+    <string name="message_editTodo">"Your Todo has been updated successfully "</string>
+    <string name="EditToDo_type"><font size="13">"  Change TODO Type "</font></string>
+    <string name="message_error_exist">"Todo already exists! "</string>
+    <string name="message_error_empty">"Todo Description must not be empty !"</string>
+</resources>

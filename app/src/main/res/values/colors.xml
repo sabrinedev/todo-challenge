@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bootstrap_primary">#006dcc</color>
+    <color name="bootstrap_info">#3a87ad</color>
+    <color name="bootstrap_success">#5cb85c</color>
+    <color name="bootstrap_warning">#f89406</color>
+    <color name="bootstrap_danger">#b94a48</color>
+    <color name="bootstrap_default">#999999</color>
+    <color name="bootstrap_primary_shadowed">#005fb3</color>
+    <color name="bootstrap_info_shadowed">#327394</color>
+    <color name="bootstrap_success_shadowed">#386e39</color>
+    <color name="bootstrap_warning_shadowed">#de8405</color>
+    <color name="bootstrap_danger_shadowed">#a1403f</color>
+    <color name="bootstrap_default_shadowed">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="background_white_light">#33ffffff</color>
+    <color name="background_white_shady">#4Dffffff</color>
+    <color name="background_white_listitem">#A6ffffff</color>
+    <color name="add_button">#BF327394</color>
+    <color name="back_button">#BFe1cec1</color>
+
+
+</resources>
